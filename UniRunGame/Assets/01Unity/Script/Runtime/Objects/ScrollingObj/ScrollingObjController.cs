@@ -9,10 +9,11 @@ public class ScrollingObjController : MonoBehaviour
 
     public float scrollingSpeed = default;
 
-    private GameObject objPrefab = default;
+    protected GameObject objPrefab = default;
     protected Vector2 objPrefabSize = default;
     protected List<GameObject> scrollingPool = default;
 
+    protected float prefabYPos = default;
 
     // Start is called before the first frame update
     public virtual void Start()
@@ -23,6 +24,7 @@ public class ScrollingObjController : MonoBehaviour
         GFunc.Assert(objPrefab != null || objPrefab != default);
 
         objPrefabSize = objPrefab.GetRectSizeDelta();
+        prefabYPos = objPrefab.transform.localPosition.y;
 
         // { 스크롤링 풀을 생성해서 주어진 수 만큼 초기화
 

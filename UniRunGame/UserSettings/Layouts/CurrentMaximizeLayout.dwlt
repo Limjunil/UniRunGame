@@ -225,9 +225,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 64600000
-      m_LastClickedID: 24676
-      m_ExpandedIDs: 22fbffff2660000038600000566000005a600000
+      m_SelectedIDs: 1a600000
+      m_LastClickedID: 24602
+      m_ExpandedIDs: ae97ffff48bcffff32c0fffff6c4ffff22fbffff266000003860000052600000566000005a60000076600000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -558,9 +558,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -6.253007, y: 0.62209195, z: 121.730774}
+    m_Target: {x: 0.34850276, y: 0.047406003, z: 143.99886}
     speed: 2
-    m_Value: {x: -6.253007, y: 0.62209195, z: 121.730774}
+    m_Value: {x: 0.34850276, y: 0.047406003, z: 143.99886}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -611,9 +611,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.336045
+    m_Target: 12.391
     speed: 2
-    m_Value: 1.336045
+    m_Value: 12.391
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -752,7 +752,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 5256
+  controlID: 7922
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -820,7 +820,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/01Unity/Script/Runtime
+    - Assets/01Unity/Script/Runtime/Managers
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
@@ -860,24 +860,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 120}
-    m_SelectedIDs: 64600000
+    scrollPos: {x: 0, y: 45}
+    m_SelectedIDs: 1a600000
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000009c6000009e600000a46000001461000016610000186100001a6100001c6100001e61000020610000226100002461000026610000286100002a6100002c6100002e61000030610000326100003461000036610000
+    m_ExpandedIDs: ffffffff000000009c6000009e600000a46000001461000016610000186100001a6100001c6100001e61000020610000226100002461000026610000286100002a6100002c6100002e61000030610000326100003461000036610000e2610000e4610000c68200006e8c0000fa8d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: ScrollingPlatformController
+      m_OriginalName: ScrollingPlatformController
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 36358
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 
@@ -888,8 +888,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 64600000
-    m_LastClickedInstanceID: 24676
+    m_SelectedInstanceIDs: 1a600000
+    m_LastClickedInstanceID: 24602
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -992,8 +992,8 @@ MonoBehaviour:
     y: 0
     width: 454
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -1034,7 +1034,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 378
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

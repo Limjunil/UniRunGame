@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
 
 
     public bool isGameOver = false;
+
     private GameObject scoreTxtObj = default;
     private GameObject gameOverUi = default;
 
@@ -60,7 +61,6 @@ public class GameManager : MonoBehaviour
     public void AddScore(int newScore)
     {
         if (isGameOver == true) { return; }
-
 
 
         // 게임이 진행중이라면
