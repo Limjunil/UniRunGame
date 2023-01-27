@@ -74,11 +74,15 @@ public class PlayerController : MonoBehaviour
     private void Die()
     {
         playerAni.SetTrigger("Die");
+
         playerAudio.clip = deathSound;
         playerAudio.Play();
 
         playerRigid.velocity = Vector2.zero;
         isDead = true;
+
+        // 게임 매니저로 플레이어가 죽었을 때의 UI 처리를 한다
+        GameManager.instance.OnPlayerDead();
     }   // Die()
 
     //! 트리거 충돌 감지 처리를 위한 함수

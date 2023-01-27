@@ -11,7 +11,7 @@ public static partial class GFunc
         #if DEBUG_MODE
         Debug.Log(message);
         #endif // DEBUG_MODE
-    }
+    }   // Log()
 
     [System.Diagnostics.Conditional("DEBUG_MODE")]
     public static void Log(object message, UnityEngine.Object context)
@@ -20,7 +20,19 @@ public static partial class GFunc
         Debug.Log(message, context);
         #endif // DEBUG_MODE
     }
+
+
+    [System.Diagnostics.Conditional("DEBUG_MODE")]
+    public static void LogWarning(object message)
+    {
+        #if DEBUG_MODE
+        Debug.LogWarning(message);
+        #endif // DEBUG_MODE
+    }   // Log()
     #endregion // Print log func
+
+
+
 
 
     #region Assert for debug

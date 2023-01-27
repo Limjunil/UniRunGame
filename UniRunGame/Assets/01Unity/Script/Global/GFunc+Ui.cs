@@ -5,17 +5,17 @@ using TMPro;
 
 public static partial class GFunc
 {
-    //! ÅØ½ºÆ®¸Ş½¬ÇÁ·Î ÇüÅÂÀÇ ÄÄÆ÷³ÍÆ®ÀÇ ÅØ½ºÆ®¸¦ ¼³Á¤ÇÏ´Â ÇÔ¼ö
-    public static void SetTmpText(GameObject obj_, string text_)
+    //! í…ìŠ¤íŠ¸ë©”ì‰¬í”„ë¡œ í˜•íƒœì˜ ì»´í¬ë„ŒíŠ¸ì˜ í…ìŠ¤íŠ¸ë¥¼ ì„¤ì •í•˜ëŠ” í•¨ìˆ˜
+    public static void SetTmpText(this GameObject obj_, string text_)
     {
         TMP_Text tmpTxt = obj_.GetComponent<TMP_Text>();
 
         if (tmpTxt == null || tmpTxt == default(TMP_Text)) 
         {
             return;
-        } // if : °¡Á®¿Ã ÅØ½ºÆ®¸Ş½¬ ÄÄÆ÷³ÍÆ®°¡ ¾ø´Â °æ¿ì
+        } // if : ê°€ì ¸ì˜¬ í…ìŠ¤íŠ¸ë©”ì‰¬ ì»´í¬ë„ŒíŠ¸ê°€ ì—†ëŠ” ê²½ìš°
 
-        // °¡Á®¿Ã ÅØ½ºÆ®¸Ş½¬ ÄÄÆ÷³ÍÆ®°¡ Á¸ÀçÇÒ °æ¿ì
+        // ê°€ì ¸ì˜¬ í…ìŠ¤íŠ¸ë©”ì‰¬ ì»´í¬ë„ŒíŠ¸ê°€ ì¡´ì¬í•  ê²½ìš°
         tmpTxt.text = text_;
     } // SetTmpText()
 }

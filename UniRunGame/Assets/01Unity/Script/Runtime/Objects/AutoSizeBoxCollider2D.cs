@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class AutoSizeBoxCollider2D : MonoBehaviour
 {
+    public bool isUseParentSize = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,8 +19,17 @@ public class AutoSizeBoxCollider2D : MonoBehaviour
         RectTransform rectTransform_ =
             gameObject.GetComponentMust<RectTransform>();
 
-        objSize_.x = parentRectTransform_.sizeDelta.x;
-        objSize_.y = rectTransform_.sizeDelta.y;
+        if (isUseParentSize == true)
+        {
+
+            objSize_.x = parentRectTransform_.sizeDelta.x;
+            objSize_.y = rectTransform_.sizeDelta.y;
+        }
+        else
+        {
+            objSize_.x = rectTransform_.sizeDelta.x;
+            objSize_.y = rectTransform_.sizeDelta.y;
+        }
 
         boxCollider_.size = objSize_;
     }   // Start()
